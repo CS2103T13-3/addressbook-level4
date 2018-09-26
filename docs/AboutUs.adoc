@@ -20,7 +20,7 @@ Role: Project Advisor
 '''
 
 === David Choo
-image::david.jpg[width="150", align="left"]
+image::hidingmode.png[width="150", align="left"]
 {empty}[http://github.com/hidingmode[github]] [<<johndoe#, portfolio>>]
 
 Role: Developer +
@@ -29,7 +29,7 @@ Responsibilities:__
 '''
 
 === Hansel Chia Chen Young
-image::hansel.jpg[width="150", align="left"]
+image::handshou.png[width="150", align="left"]
 {empty}[http://github.com/handshou[github]] [<<johndoe#, portfolio>>]
 
 Role: Developer +
@@ -47,7 +47,7 @@ Responsibilities: __
 '''
 
 === Hayden Phillips
-image::hayden.jpg[width="150", align="left"]
+image::haydenphillips.png[width="150", align="left"]
 {empty}[http://github.com/HaydenPhillips[github]] [<<johndoe#, portfolio>>]
 
 Role: Developer +
@@ -56,7 +56,7 @@ Responsibilities: __
 '''
 
 === Qi Gongjie
-image::QiGongjie.jpeg[width="150", align="left"]
+image::gongjie663746.png[width="150", align="left"]
 {empty}[http://github.com/Gongjie663746[github]] [<<johndoe#, portfolio>>]
 
 Role: Developer +
