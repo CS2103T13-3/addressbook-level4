@@ -3,17 +3,9 @@ matrix:
   include:
     - jdk: oraclejdk9
 
-script:
-  - ./config/travis/run-checks.sh
-  - travis_retry ./gradlew clean
-  - travis_retry ./gradlew checkstyleMain
-  - travis_retry ./gradlew checkstyleTest
-  - travis_retry ./gradlew headless
-  - travis_retry ./gradlew allTests
-  - travis_retry ./gradlew coverage
-  - travis_retry ./gradlew coveralls
-  - travis_retry ./gradlew asciidoctor
-  - travis_retry ./gradlew copyDummySearchPage
+script: >-
+    ./config/travis/run-checks.sh &&
+    travis_retry ./gradlew clean checkstyleMain checkstyleTest headless allTests coverage coveralls asciidoctor copyDummySearchPage
 
 deploy:
   skip_cleanup: true
