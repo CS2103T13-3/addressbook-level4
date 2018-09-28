@@ -4,15 +4,13 @@ import seedu.address.logic.CommandHistory;
 import seedu.address.model.Model;
 import seedu.address.player.JxMusicPlayer;
 
-import static java.util.Objects.requireNonNull;
-import static seedu.address.model.Model.PREDICATE_SHOW_ALL_PERSONS;
-
 /**
  * Lists all persons in the address book to the user.
  */
 public class PlayPlaylistCommand extends Command {
 
-    public static final String COMMAND_WORD = "play"; // todo change to "play p/" when parser can accept multiword command
+    // todo change to "play p/" when parser can use p/ for parameter
+    public static final String COMMAND_WORD = "play";
 
     public static final String MESSAGE_SUCCESS = "Play a playlist";
 

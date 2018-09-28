@@ -1,10 +1,13 @@
 package seedu.address.model;
 
-import seedu.address.commons.util.CollectionUtil;
-
 import java.util.ArrayList;
 import java.util.List;
 
+import seedu.address.commons.util.CollectionUtil;
+
+/**
+ * Represents a playlist in JxMusic
+ */
 public class Playlist {
     // playlist name
     private final String name;
@@ -16,6 +19,10 @@ public class Playlist {
         this.name = name;
     }
 
+    /**
+     * Adds a track into the playlist
+     * @param track to be added to the playlist
+     */
     public void addTrack(Track track) {
         if (tracks == null) {
             tracks = new ArrayList<>();
@@ -23,7 +30,11 @@ public class Playlist {
         tracks.add(track);
     }
 
-    public String getName() { return name; }
+    public String getName() {
+        return name;
+    }
 
-    public List<Track> getTracks() { return tracks; }
+    public List<Track> getTracks() {
+        return tracks;
+    }
 }

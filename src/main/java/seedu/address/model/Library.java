@@ -1,9 +1,12 @@
 package seedu.address.model;
 
-import seedu.address.commons.util.CollectionUtil;
-
 import java.util.List;
 
+import seedu.address.commons.util.CollectionUtil;
+
+/**
+ * Represents the library in JxMusic
+ */
 public class Library {
     // tracks are mp3 files in /library folder
     // so it can change if new file added into folder when program is running

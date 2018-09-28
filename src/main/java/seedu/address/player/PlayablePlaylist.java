@@ -1,9 +1,11 @@
 package seedu.address.player;
 
-import java.io.File;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Playlist structure used by Player
+ */
 public class PlayablePlaylist implements Playable {
     private List<PlayableTrack> playlist;
     private int currentIndex;
